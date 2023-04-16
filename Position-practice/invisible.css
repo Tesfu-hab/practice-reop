@@ -1,0 +1,33 @@
+/**
+* Invisibility: let's us postion elements on top of 
+**/
+
+.box-set {
+    position: relative;
+    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
+    background: darkgray;
+}
+
+.box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+}
+
+.box-1 {
+    top: 20px;
+    /*Hides element as if it's not there (compare with "visibility: hidden")*/
+    display: none;
+    /* visibility: hidden; */
+}
+
+.box-2 {
+    left: 40px;
+}
+
+.box-3 {
+    right: 20px;
+    bottom: -10px;
+}

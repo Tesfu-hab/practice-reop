@@ -1,0 +1,43 @@
+/**
+* Relative Position: sets boxes relative to its original location (default location)
+* (i.e. below or left of where the element would normally be)
+**/
+
+.box-set {
+    position: relative;
+    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
+    background: darkgray;
+}
+
+.box {
+    /*relative positioning*/
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+}
+
+/* To know the movement for +ve & -ve values, 
+* we consider the mentioned side as the parent box side. 
+* of the value is positive the box move 
+* 1. top: the box move to the bottom
+* 2. left: the box move to the right
+* 3. bottom: the box move to up
+* 4. right: the box move to left
+* for negative value vise verse */
+/* i.e. these movements are based off the default positions */
+/*-ve value means away from the box!*/
+/* +ve value means towards the box!*/
+.box-1 {
+    top: 20px;
+}
+
+.box-2 {
+    left: 40px;
+}
+
+.box-3 {
+    right: 20px;
+    bottom: -10px;
+}

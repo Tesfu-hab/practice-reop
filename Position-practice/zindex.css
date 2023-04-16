@@ -1,0 +1,50 @@
+/**
+* Z-Index: let's us postion elements on top of 
+**/
+
+.box-set {
+    position: relative;
+    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
+    background: darkgray;
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+}
+
+/* To know the movement for +ve & -ve values, 
+* we consider the mentioned side as the parent box side. 
+* of the value is positive the box move 
+* 1. top: the box move to the bottom
+* 2. left: the box move to the right
+* 3. bottom: the box move to up
+* 4. right: the box move to left
+* for negative value vise verse */
+/* The higher the z-index the box is closer to your eye.*/ 
+.box-1 {
+    top: 10px;
+    left: 10px;
+    background-color: lightblue;
+    z-index: 3;
+}
+
+.box-2 {
+    bottom: 10px;
+    left: 70px;
+}
+
+.box-3 {
+    top: 10px;
+    left: 100px;
+    z-index: 4;
+}
+
+.box-4 {
+    bottom: 10px;
+    left: 150px;
+    background-color: lightblue;
+}
