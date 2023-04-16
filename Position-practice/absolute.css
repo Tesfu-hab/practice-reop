@@ -1,0 +1,52 @@
+/**
+* Absolute Position: anchors element to the first element (overall box)
+* (i.e. the location is based on the parent element)
+**/
+.empty-box {
+    height: 200px;
+    background-color: coral;
+}
+
+.box-set {
+    position: relative;
+    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
+    background: darkgray;
+}
+
+.box {
+    /* Absolute position */
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+}
+
+/* To know the movement for +ve & -ve values, 
+* we consider the mentioned side as the parent box side. 
+* of the value is positive the box move 
+* 1. top: the box move to the bottom
+* 2. left: the box move to the right
+* 3. bottom: the box move to up
+* 4. right: the box move to left
+* for negative value vise verse */
+/* Box rules: percentages define anchors (i.e. position of each box relative to enclosing) */
+/* boxs move in relation to the mentioned parent boarder.*/ 
+.box-1 {
+    top: 20px;
+    left: 10px;
+}
+
+.box-2 {
+    top: 0;
+    right: 40px;
+}
+
+.box-3 {
+    right: 20px;
+    bottom: -10px;
+}
+
+.box-4 {
+    bottom: 0;
+}
