@@ -1,0 +1,61 @@
+.box {
+    position: relative;
+    background-color: bisque;
+    width: 800px;
+    padding-top: 1px;
+}
+
+h1 {
+    background-color: aqua;
+    height: 36px;
+}
+
+#title {
+    position: relative;
+}
+
+.blue-box {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+}
+
+p {
+    background-color: aqua;
+    height: 18px;
+}
+
+.green-box {
+    background-color: green;
+    width: 650px;
+    height: 120px;
+}
+
+h3 {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    background-color: aquamarine;
+}
+
+/* Static: Deafult positioning */
+/* Static position means: - Position starts at the top left and by element it moves down "Top-to-Bottom"*/
+
+/* .box-set {
+    position: relative;
+    width: 800px;
+    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
+    background: darkgray;
+}
+
+.box {
+    /*we didn't give static position to this code*/
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    background: #2db34a;
+    border: 2px solid black;
+    /*even we write the position static we didn't see any change of the box positions*/
+    /* position: static; */
+} */
