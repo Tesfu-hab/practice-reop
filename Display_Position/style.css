@@ -41,21 +41,21 @@ h3 {
 /* Static: Deafult positioning */
 /* Static position means: - Position starts at the top left and by element it moves down "Top-to-Bottom"*/
 
-/* .box-set {
+ /* .box-set {
     position: relative;
     width: 800px;
-    height: 400px; /* If we didn't give the hight the background will have the height of all elements*/
-    background: darkgray;
-}
+    height: 400px;  */
+    /* If we didn't give the hight the background will have the height of all elements*/
+    /* background: darkgray;} 
 
-.box {
+.box { */
     /*we didn't give static position to this code*/
-    width: 150px;
+    /* width: 150px;
     height: 150px;
     position: absolute;
     right: 0px;
     background: #2db34a;
-    border: 2px solid black;
+    border: 2px solid black; */
     /*even we write the position static we didn't see any change of the box positions*/
     /* position: static; */
-} */
+/* } */
